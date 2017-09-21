@@ -12,7 +12,8 @@
     "express": "^4.13.4",
     "express-session": "^1.15.5",
     "mongodb": "^2.2.9",
-    "moment": "2.18.1"
+    "moment": "2.18.1",
+    "mocha": "^3.5.3"
   },
   "author": "Interface POC Team",
   "license": "ISC",
