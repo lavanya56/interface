@@ -7,7 +7,7 @@ var expect = require('chai').expect;
 var Q = require('q');
 var callback = sinon.spy();
 var MongoMock = require("mongomock");
-var dealerCollection = {"dealer":[{"dealerName" : "Usharani Kotyada","type" : "dealer","dealerId" : "d002","Email" : "ukotyada@miraclesoft.com","Password" : "Ukotyada","Phone" : "7660917458","marketSegment" : "Residential","country" : "United States","state" : "Washington"}]
+var dealerCollection = {"dealer":[{"dealerName" : "Usharani Kotyada","type" : "dealer","dealerId" : "d002","Email" : "ukotyada@miraclesoft","Password" : "Ukotyada","Phone" : "7660917458","marketSegment" : "Residential","country" : "United States","state" : "Washington"}]
 };
 var mongo = new MongoMock(dealerCollection);
 
