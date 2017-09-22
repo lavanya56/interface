@@ -47,7 +47,7 @@ describe('Services Test', function () {
         it('should fail for invalid  users', function(done)
         {
            //var result= appStub.post(authenticateCustomer');
-           request(appStub).get('/authenticateCustomer').send({Email:'test',Password:'test'})
+           request(appStub).get('/authenticateCustomer').send({Email:'test1',Password:'test'})
            .end(function(err,res){
                
               expect(JSON.parse(res.text).output).to.be.empty;
