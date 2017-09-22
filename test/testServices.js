@@ -36,7 +36,7 @@ describe('Services Test', function () {
         it('should validate login users', function(done)
         {
            //var result= appStub.post(authenticateCustomer');
-           request(appStub).get('/authenticateCustomer').send({Email:'ukotyada@miraclesoft.com',Password:'Ukotyada'})
+           request(appStub).get('/authenticateCustomer').send({Email:'ukotyada@miraclesoft',Password:'Ukotyada'})
            .end(function(err,res){
               expect(JSON.parse(res.text).output).to.be.not.null;
               expect(JSON.parse(res.text).output).to.be.an('array');
