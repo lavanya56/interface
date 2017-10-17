@@ -4,6 +4,6 @@ applications:
   instances: 1
   domain: mybluemix.net
   name: InterfaceTest
-  host: InterfaceTest
+  host: MILInterfaceTest
   disk_quota: 1024M
   
