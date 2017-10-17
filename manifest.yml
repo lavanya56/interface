@@ -6,3 +6,4 @@ applications:
   name: InterfacePOCTest
   host: InterfacePOCTest
   disk_quota: 1024M
+  
